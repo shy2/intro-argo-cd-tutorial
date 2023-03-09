@@ -11,7 +11,7 @@ spec:
     targetRevision: HEAD
   destination:
     namespace: guestbook
-    name: staging # Update this value.
+    name: shy2argocd # Update this value.
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
